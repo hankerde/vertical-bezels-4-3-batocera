@@ -18,9 +18,9 @@ My sources are mainly https://github.com/svera/vertical-bezels-4-3, https://retr
 
 ## How do I get this to work?
 Assuming you are using Batocera v35 or above (I simply haven’t tested these with older versions):
-1. Create a folder “`XXXXXX`” (or “`YYYYY`” if using the samba network share).
+1. Create a folder “`/userdata/decorations/mybezels4-3/games/mame`” (or “`\share\decorations\mybezels4-3\games\mame`” if using the samba network share).
 
-2. If you want these bezels to work in fbneo, too, create a second folder “`ZZZZZ`”.
+2. If you want these bezels to work in fbneo, too, create a second folder “`/userdata/decorations/mybezels4-3/games/fbneo`”.
 
 3. Copy the desired PNGs as well as INFOs into these folder(s).
 
@@ -31,11 +31,14 @@ using ssh and nano. You’re searching for the line
 - - - - - - - - - -
 `if gameRatio < 1.6 and gunsBordersSize is None: # let's use bezels only for 16:10, 5:3, 16:9 and wider aspect ratios ; don't skip if gun borders are needed`
 - - - - - - - - - -
-(line 1219 on v41 or line 905 on v35, for example)
-Change the “`1.6`” to “`1`” to activate bezels for non-16:9 – displays.
+(line 1219 on v41 or line 905 on v35, for example).
 
-5. In Batocera itself, select “Decorations” → “Mybezel_43”
+Change the “`1.6`” to “`1`” to activate bezels for non-16:9 – displays. A `batocera-save-overlay` should be nescessary. 
+
+(I found out that at least in v35 you do not have to change this at all, if you're using the exact same resolution for the bezel as emulationstation and retroarch / the game use.)
+
+5. In Batocera itself, under "Advanced Game Options" select “Decoration Set” → “Mybezels4-3” for each game that has bezels in this collection. Or you could use "Advenced System Options" in the "Mame" (and/or "FBNeo") system.
    
-6. Especially when using 1280x1024- Bezels, select “Aspect Ratio” → “Custom” for the games using these bezels. Yes, this distorts the games a little bit, but I didn’t want so crop all those bezels.
+6. Especially when using 1280x1024- Bezels, select “Game Aspect Ratio” → “Custom” for the games using these bezels. Yes, this distorts the games a little bit, but I didn’t want so crop all those bezels.
 
 You should be ready to go, enjoy!
