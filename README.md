@@ -35,10 +35,10 @@ using ssh and nano. You’re searching for the line
 
 Change the “`1.6`” to “`1`” to activate bezels for non-16:9 – displays. A `batocera-save-overlay` should be nescessary. 
 
-(I found out that at least in v35 you do not have to change this at all, if you're using the exact same resolution for the bezel as emulationstation and retroarch / the game use.)
+(I found out that at least in v35 you do not have to change this at all, if you're using the same resolution for the bezel as emulationstation and retroarch / the game use. But your mileage may vary.)
 
 5. In Batocera itself, under "Advanced Game Options" select “Decoration Set” → “Mybezels4-3” for each game that has bezels in this collection. Or you could use "Advenced System Options" in the "Mame" (and/or "FBNeo") system.
    
-6. Especially when using 1280x1024- Bezels, select “Game Aspect Ratio” → “Custom” for the games using these bezels. Yes, this distorts the games a little bit, but I didn’t want so crop all those bezels.
+6. Especially when using 1280x1024- Bezels, select “Game Aspect Ratio” → “Custom” for the games using these bezels. Yes, this distorts the games a little bit, but I didn’t want to crop all those bezels.
 
 You should be ready to go, enjoy!
