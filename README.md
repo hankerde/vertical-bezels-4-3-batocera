@@ -9,7 +9,7 @@ While something close to 4:3 (in most cases 1024x768) is pretty cool, especially
 ## So really, what is this?
 Bezels from various sources for 4:3-Monitors for vertical games only. Without any “CRT-effect”. The PNG-files as well as INFO-Files which Batocera needs.
 
-The INFO-Files were generated automatically using https://github.com/TvsIan/bezeltools. I’ve reviewed most of the games, but there may still be some errors concerning the viewport. Please report any error (as well as how you fixed it).
+The INFO-Files were generated automatically using https://github.com/TvsIan/bezeltools. I’ve reviewed most of the 1280x1024 bezels, but there may still be some errors concerning the viewport. Please report any error (as well as how you fixed it).
 
 Concerning the 1280x1024 – versions I resized the bezels I had using https://www.highmotionsoftware.com/download-center/imbatch. I used 1600x1200 versions as a basis, if I had access to them. And created the INFOs automatically, again.
 
